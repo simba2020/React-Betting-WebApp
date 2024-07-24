@@ -1,11 +1,15 @@
 ## React Sportsbook
 
-This is a web application for a betting website built using React for frontend.
+This is a web application for a betting website built using React
 
 ##
- About this website
+ About this webapp
 
 A betting website is an online platform that allows users to place bets on various sports events, such as football, basketball, cricket, and more. Users can register an account, deposit funds, and use those funds to place bets on different sports events based on the available betting odds. The website typically provides real-time updates on sports events and their associated betting odds.
+![t1](https://github.com/user-attachments/assets/1fecf4d5-2b7e-4891-9065-2742130e4001)
+
+![t2](https://github.com/user-attachments/assets/d45647d8-1474-4ebc-a55c-b3cbeebccb98)
+
 
 ## Features
 
