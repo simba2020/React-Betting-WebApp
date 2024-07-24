@@ -1,0 +1,27 @@
+/* ############### 1. COMPONENT STYLES ############### */
+/* --------------------------------------------------------- */
+@import "component/market-view";
+@import "component/history";
+
+/* --------------------------------------------------------- */
+/* ############### 2. LAYOUT STYLES ############### */
+/* --------------------------------------------------------- */
+@import "layout/header";
+@import "layout/gamenav";
+@import "layout/footer";
+
+@import "common";
+/* -------------------------------------------------------- */
+/* ############### 3. PAGES STYLES ############### */
+/* -------------------------------------------------------- */
+@import "pages/landing";
+@import "pages/football";
+@import "pages/live";
+@import "pages/horseracing";
+@import "pages/register";
+@import "pages/search";
+@import "pages/profile";
+@import "pages/casino";
+@import "pages/static";
+@import "pages/betslip";
+@import "pages/coupon";

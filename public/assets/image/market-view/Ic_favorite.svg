@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Ic_favorite" transform="translate(-8937 3197)">
+    <path id="Bounds" d="M0,0H24V24H0Z" transform="translate(8937 -3197)" fill="none"/>
+    <path id="Star" d="M20.667,8.6l-6.711-.566L11.333,2,8.711,8.048,2,8.6,7.1,12.92,5.565,19.333l5.768-3.4,5.768,3.4L15.58,12.92Zm-9.333,5.62L7.824,16.3l.933-3.9-3.1-2.627,4.088-.347L11.333,5.74l1.6,3.686,4.088.347-3.1,2.627.933,3.9Z" transform="translate(8937.667 -3196.333)" fill="#5b5e66"/>
+  </g>
+</svg>

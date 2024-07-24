@@ -1,0 +1,23 @@
+.register-page {
+  background: #202124 0% 0% no-repeat padding-box;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: -1.5rem;
+  min-height: 780px;
+  height: calc(100vh - 60px);
+  iframe {
+    min-height: 780px;
+    border: none;
+    height: calc(100vh - 60px);
+  }
+}
+
+@media (max-width: 700px) {
+  .register-page {
+    height: calc(100vh - 122px);
+    margin-top: 48px;
+    iframe {
+      height: calc(100vh - 122px);
+    }
+  }
+}

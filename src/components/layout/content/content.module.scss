@@ -1,0 +1,21 @@
+$headerHeight: 60px;
+$mobileHeaderHeight: 40px;
+$footerHeight: calc(309px);
+$contentHeight: calc(100vh - #{$footerHeight});
+
+.content {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: $contentHeight;
+
+  &.shiftHeader {
+    margin-top: $headerHeight;
+    min-height: calc(#{$contentHeight} - #{$headerHeight});
+
+    @media (max-width: 700px) {
+      margin-top: $mobileHeaderHeight;
+    }
+  }
+}

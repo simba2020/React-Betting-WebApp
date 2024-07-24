@@ -1,0 +1,15 @@
+.mobile_az_sport {
+  width: 100%;
+  background: #18141c;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  .custom_scroll {
+    height: 100%;
+  }
+
+  .custom_scroll > div:nth-child(2) {
+    display: block;
+    background-color: #000000;
+  }
+}

@@ -1,0 +1,294 @@
+#football-quick-link {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #161619;
+  .header {
+    color: #cbcbcb;
+  }
+  p {
+    font: normal normal normal 14px/17px Roboto;
+    letter-spacing: 0.84px;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+}
+.quick-unit {
+  min-width: 180px;
+  width: max-content;
+  margin-right: 16px;
+  border-radius: 20px;
+  background: #1f2024 0% 0% no-repeat padding-box;
+  border: 1px solid #2f3138;
+  display: flex;
+  margin-top: 8px;
+
+  img {
+    margin-top: 2px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.quick-unit-item {
+  min-height: 44px;
+  background: #292a2e 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 8px;
+}
+#football-quick-link {
+  .quick-unit-active {
+    background: #deaa0417 0% 0% no-repeat padding-box;
+    p {
+      color: #f1b701;
+    }
+  }
+}
+
+.quick-unit:hover,
+.quick-unit-item:hover {
+  cursor: pointer;
+}
+
+.football-category {
+  .football-category-header1 {
+    height: 48px;
+    background: #252629 0% 0% no-repeat padding-box;
+    border-radius: 4px 4px 0px 0px;
+
+    div {
+      padding-top: 12px;
+      svg {
+        width: 20px;
+        height: 20px;
+        color: white;
+        margin-right: 10px;
+      }
+      p {
+        font: normal normal normal 18px/22px Roboto;
+        letter-spacing: 1.08px;
+        color: #e3e3e6;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.collapse-body-game {
+  svg {
+    width: 24px;
+    height: 24px;
+    color: #656566;
+  }
+
+
+
+  &:hover {
+    cursor: pointer;
+    background-color: #292a2e;
+  }
+  .time {
+    color: #e8e8ea;
+    font: normal normal normal 14px/18px Roboto;
+  }
+}
+
+.locked-marketgroup {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.locked-icon {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  font-size: 25px;
+  color: #5f5f5f;
+}
+
+img#cashout-img {
+  width: 24px;
+  height: 24px;
+  content: url($assets-url + '/interface/l-ic_cashout.svg');
+}
+
+img#live-img {
+  width: 45px !important;
+  height: 25px;
+}
+
+img#stat-img {
+  width: 25px !important;
+  height: 25px;
+}
+
+img#live-center-img {
+  width: 25px !important;
+  height: 25px;
+}
+
+.not-found-page {
+  background: #202124 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  text-align: center;
+
+  div {
+    top: 25%;
+    position: relative;
+  }
+
+  p:nth-child(even) {
+    font: normal normal 300 48px/58px Roboto;
+    letter-spacing: 0px;
+    color: #f9be00;
+    text-transform: capitalize;
+  }
+
+  p:nth-child(odd) {
+    font: normal normal 300 24px/29px Roboto;
+    letter-spacing: 0px;
+    color: #666e7a;
+  }
+}
+
+.desktop-middle-container {
+  padding-left: 0;
+}
+
+.block-content {
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  .league-name {
+    font: normal normal normal 14px/17px Roboto;
+    letter-spacing: 0.84px;
+    color: #e3e3e6;
+    display: flex;
+    flex: 1;
+  }
+  @media (max-width: 600px) {
+    .header {
+      display: block;
+    }
+    .league-name {
+      font: normal normal normal 12px/14px Roboto;
+      letter-spacing: 0.72px;
+    }
+  }
+}
+
+#not-found-sport {
+  height: 91vh !important;
+}
+.desktop-betslip {
+  width: 20%;
+}
+.top-carousel-container {
+  .carousel-title {
+    color: #e3e3e6;
+    font: normal normal normal 12px/22px Roboto;
+  }
+}
+.collapse-quick-link {
+  position: relative;
+  width: auto;
+  @media (max-width: 600px) {
+    border-radius: 0px 0px 8px 8px;
+  }
+}
+.icon-arrow {
+  position: absolute;
+  right: 20px;
+}
+.sport-main-container {
+  flex: 0 0 100%;
+}
+.block-mobile-wrap {
+  background: #1e1f21 0% 0% no-repeat padding-box;
+  .mobile-collapse {
+    height: 40px;
+  }
+  svg {
+    height: 20px !important;
+    width: 20px !important;
+  }
+}
+.event-title {
+  font: normal normal normal 14px/22px Roboto;
+  color: #e3e3e6;
+}
+.market-group-wrap {
+  display: flex;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  background-color: #232426;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .market-group-unit {
+    text-align: center;
+    flex: 0 0 auto;
+    display: inline-block;
+    font: normal normal normal 12px/22px Roboto;
+    color: #b8becc;
+    padding-top: 8px;
+    @media (max-width: 600px) {
+      width: 120px;
+    }
+  }
+  .market-group-active {
+    background-color: #353020;
+    border-bottom: 1px solid #ffc107;
+    color: #ffc107;
+  }
+}
+.mobile-event-header {
+  span {
+    font: normal normal normal 17px/22px Roboto;
+    color: #ced6e6;
+  }
+  img {
+    width: 23px;
+    height: 23px;
+  }
+}
+.time {
+  color: #898d99;
+  font: normal normal normal 18px/19px Roboto;
+}
+.bs-right-padding {
+  padding-right: 2.4rem !important;
+}
+.quick-links {
+  background: #161619;
+}
+@media (max-width: 600px) {
+  .quick-links {
+    width: 100%;
+  }
+  .desktop-middle-container {
+    padding-left: 0;
+  }
+  .desktop-betslip {
+    display: none;
+  }
+  #football-quick-link p {
+    font: normal normal normal 14px/19px Roboto;
+  }
+  .sport-main-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: calc(100vh - 190px);
+    overflow: auto;
+    background: #1b1c1f 0% 0% no-repeat padding-box;
+  }
+  .time {
+    color: #898d99;
+    font: normal normal normal 14px/19px Roboto;
+  }
+}

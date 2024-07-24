@@ -1,0 +1,26 @@
+.block_container {
+  width: 100%;
+  background: #1b1c1f 0 0 no-repeat padding-box;  
+  margin-top: 16px;
+  .block_collapse_header {    
+    background: #202124 0 0 no-repeat padding-box;
+    border-radius: 8px 8px 0 0;
+    opacity: 1;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+
+    svg {
+      position: relative;
+      color: #ffffff;
+      width: 16px;
+      height: 16px;
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}

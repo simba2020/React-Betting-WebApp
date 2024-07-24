@@ -1,0 +1,453 @@
+.betslip-stake {
+  color: #FFFFFF !important;
+  background: #4D5157 0% 0% no-repeat padding-box !important;
+  height: auto !important;
+  text-align: right;
+  border: none !important;
+  letter-spacing: 1.08px !important;
+}
+.betslip-stake:focus {
+  box-shadow: none !important;
+}
+.delete-betslip {
+  cursor: pointer;
+}
+.multi-combined-container {
+  background: #292a2e 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 10px;
+}
+.multi-combined-container:hover {
+  background-color: #292a2e;
+}
+.betslip-fixed-container {
+  max-height: calc(100vh - 322px + 0.25rem) !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #1F2024 0% 0% no-repeat padding-box;
+}
+.landing-betslip-fixed-container{
+  max-height: calc(100vh - 487px + 0.25rem) !important;
+}
+.live-betslip-fixed-container {
+  max-height: calc(100vh - 325px + 0.25rem) !important;
+}
+.odd-change {
+  background: #252729 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  .custom-switch {
+    font: normal normal normal 14px/17px Roboto;
+    letter-spacing: .84px;
+    color: #ccc;
+    p {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+.betslip-total-info {
+  background: #000000 0% 0% no-repeat padding-box;
+  #betslip-card2 {
+    display: none; // just for now
+    background: #25272b 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    p:first-child {
+      font: normal normal normal 16px/19px Roboto;
+      letter-spacing: 0.96px;
+      color: #b1b1b3;
+      margin-bottom: 0;
+      margin-left: 10px;
+    }
+  }
+  .total-value-container {
+    .total-value {
+      display: flex;
+
+      p:first-child {
+        font: normal normal 300 14px/17px Roboto;
+        letter-spacing: 0.84px;
+        color: #ffffff;
+        margin-right: 5px;
+        margin-bottom: 0;
+      }
+
+      p:nth-child(2) {
+        font: normal normal normal 14px/17px Roboto;
+        letter-spacing: 0.84px;
+        color: #f9be00;
+        margin-bottom: 0;
+      }
+    }
+  }
+  #place-bet-btn {
+    height: 48px;
+    box-shadow: 0px 3px 6px #060b2b29;
+    border-radius: 2px;
+    width: 100%;
+    letter-spacing: 0.96px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.betslip-type {
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0.96px;
+  color: #E3E3E6;
+  margin: 0px 10px 0px 4px;
+  span {
+    font: normal normal bold 14px/17px Roboto;
+    letter-spacing: 0.84px;
+    color: #F9BE00;
+  }
+}
+.bet-scroll {
+  max-height: calc(100vh - 400px + 0.25rem) !important;
+}
+.no-bet-container {
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0.96px;
+  color: #d7d7d9;
+  height: 250px;
+  background: #1F2024 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 4px 4px;
+  .fa-bookmark {
+    width: 1.5rem;
+    height: auto;
+  }
+  p {
+    margin-bottom: 0px;
+    color: #7D818C;
+    font: normal normal 300 16px/18px Roboto;
+    letter-spacing: 1.2px;
+  }
+  .bet-success {
+    color: #F9BE00;
+    font: normal normal 300 24px/30px Roboto;
+    letter-spacing: 1.44px;
+  }
+  .btn-warning {
+    color: #000000 !important;
+    border-radius: 2px;
+    min-height: 48px;
+  }
+  div {
+    flex: 100%;
+  }
+}
+.event-message {
+  font: normal normal 300 14px/22px Roboto !important;
+  letter-spacing: 0.84px !important;
+  color: #F9BE00 !important;
+  svg {
+    color: #F9BE00 !important;
+    margin-top: 0px !important;
+    margin-right: 5px !important;
+  }
+}
+.unavailable-event {
+  font: normal normal normal 12px/14px Roboto !important;
+}
+.betslip-conflict-container {
+  background: #36383D 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border-left: 4px solid #F9BE00;
+  padding: 10px 15px;
+  margin: 0.5rem;
+  .conflict-message {
+    font: normal normal 300 14px/22px Roboto !important;
+    letter-spacing: 0.84px !important;
+    color: #F9BE00 !important;
+    margin-bottom: 0px;
+  }
+  .fa-chevron-down {
+    color: #E3E3E6
+  }
+  .fa-chevron-up {
+    color: #E3E3E6
+  }
+  .conflict-item {
+    margin-top: 14px;
+    .conflict-event {
+      font: normal normal normal 14px/17px Roboto;
+      letter-spacing: 0.84px;
+      color: #E3E3E6;
+    }
+    .conflict-result {
+      font: normal normal normal 14px/17px Roboto;
+      letter-spacing: 0.84px;
+      color: #B1B1B3;
+      text-transform: capitalize;
+    }
+  }
+}
+.status-container {
+  background-color: #36383D;
+  padding: 10px;
+  margin: 0 0.5rem 0 0.5rem;
+  border-radius: 4px;
+  color: #ffffff;
+  svg {
+    color: #F9BE00 !important;
+  }
+}
+.quick-login {
+  .modal-content {
+    width: 420px;
+    height: 500px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #232529;
+    .header {
+      .login {
+        text-align: left;
+        font: normal normal normal 28px/34px Roboto;
+        letter-spacing: 1.92px;
+        color: #FFFFFF;
+      }
+      svg {
+        color: #ffffff;
+        cursor: pointer;
+      }
+      .description {
+        font: normal normal 300 16px/19px Roboto;
+        letter-spacing: 0.96px;
+        color: #C9C9CC;
+      }
+      .register {
+        text-decoration: underline;
+        font: normal normal 300 16px/19px Roboto;
+        letter-spacing: 0.96px;
+        color: #F9BE00;
+      }
+    }
+    .email {
+      label {
+        font: normal normal normal 16px/19px Roboto;
+        letter-spacing: 0.96px;
+        color: #C9C9CC;
+      }
+      input {
+        background: #32353B 0% 0% no-repeat padding-box;
+        border: 1px solid #6D7380;
+        border-radius: 4px;
+        color: #ffffff;
+      }
+    }
+    .password {
+      label {
+        font: normal normal normal 16px/19px Roboto;
+        letter-spacing: 0.96px;
+        color: #C9C9CC;
+      }
+      input {
+        background: #32353B 0% 0% no-repeat padding-box;
+        border: 1px solid #6D7380;
+        border-right: none;
+        color: #ffffff;
+      }
+      .input-group-text {
+        background: #32353B 0% 0% no-repeat padding-box;
+        border: 1px solid #6D7380;
+        border-left: none;
+        color: #888C99;
+        cursor: pointer;
+      }
+    }
+    .btn-login {
+      font-weight: bold;
+      letter-spacing: 0.96px;
+    }
+    .btn-recover {
+      letter-spacing: 0.96px;
+      border: 1px solid #F9BE00;
+      border-radius: 4px;
+      background-color: #232529;
+      color: #F9BE00;
+    }
+    .spinner-border {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+}
+
+
+.mobile-betslip-container {
+  margin-top: 48px;
+  max-height: calc(100vh - 48px);
+  .header {
+    background: #252629 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000066;
+    height: 48px;
+    span {
+      font: normal normal normal 16px/19px Roboto;
+      letter-spacing: 0.96px;
+      color: #CACACC;
+      text-transform: capitalize;
+    }
+    span:before  {
+      font-size: 20px;
+      content: ' \003c';
+    }
+  }
+  .main-container {    
+    .no-bet-container-mobile {
+      p {
+        font: normal normal 300 20px/30px Roboto;
+        letter-spacing: 1.2px;
+        color: #7D818C;
+      }
+      div {
+        height: 300px;
+      }
+      margin-top: 15vh;
+      height: 400px;
+    }
+    .betslips {
+      max-height: calc(100vh - 210px);
+      overflow-y: scroll;
+      .custom-switch {
+        font: normal normal normal 14px/17px Roboto;
+        letter-spacing: .84px;
+        color: #ccc;
+        p {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+      .status-container {
+        margin: 0;
+      }
+      .betslip-conflict-container {
+        margin: 0.5rem 0 0 0;
+      }
+      .single-container {
+        .betslip-type {
+          font: normal normal normal 18px/20px Roboto;
+          letter-spacing: 0.96px;
+          color: #E3E3E6;
+          margin: 0px 10px 0px 4px;
+        }
+      }
+      .multiple-container {
+        border-radius: 4px;
+        padding: 12px 0px;
+        .multi-combined-container {
+          height: 40px;
+        }
+        .fa-chevron-up {
+          color: #ffffff;
+        }
+        .fa-chevron-down {
+          color: #ffffff;
+        }
+      }
+    }
+    .betslip-total-info {
+      background: #000000 0% 0% no-repeat padding-box;
+      height: 100px;
+      #betslip-card2 {
+        display: none; // just for now
+        background: #25272b 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        p:first-child {
+          font: normal normal normal 16px/19px Roboto;
+          letter-spacing: 0.96px;
+          color: #b1b1b3;
+          margin-bottom: 0;
+          margin-left: 10px;
+        }
+      }
+      .total-value-container {
+        .total-value {
+          display: flex;
+
+          p:first-child {
+            font: normal normal 300 14px/17px Roboto;
+            letter-spacing: 0.84px;
+            color: #ffffff;
+            margin-right: 5px;
+            margin-bottom: 0;
+          }
+
+          p:nth-child(2) {
+            font: normal normal normal 14px/17px Roboto;
+            letter-spacing: 0.84px;
+            color: #f9be00;
+            margin-bottom: 0;
+          }
+        }
+      }
+      #place-bet-btn {
+        height: 48px;
+        box-shadow: 0px 3px 6px #060b2b29;
+        border-radius: 2px;
+        width: 100%;
+        letter-spacing: 0.96px;
+        color: #000000;
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+#stake-input::placeholder
+ {
+  color: #b1b1b3;
+  text-align: left;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.betslip-fixed-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4a4f57;
+  border-radius: 10px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff;
+  -webkit-box-shadow: 0 0 0px 1000px #32353B inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .odd-change {
+    .custom-switch {
+      font: normal normal normal 12px/14px Roboto;
+      letter-spacing: .78px;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.header {
+  padding: 0 10px;
+
+  .logoWrapper {
+    .logo {
+      margin-right: 16px;;
+    }
+
+    .title {
+      margin: 0;
+
+      @media (max-width: 700px) {
+        & {
+          display: none;
+        }
+      }
+    }
+
+    .catchPhrase {
+      font: normal normal normal 16px Roboto;
+      letter-spacing: 1.2px;
+      color: #ffffff;
+      margin: 0;
+    }
+
+    @media (max-width: 1570px) {
+      .catchPhrase {
+        display: none;
+      }
+    }
+
+    @media (min-width: 1571px) {
+      .title {
+        margin-right: 50px;
+      }
+    }
+  }
+
+  .actionItems {
+    .socialMedia {
+      display: flex;
+      align-items: center;
+
+      @media (max-width: 1250px) {
+        &.loggedOut {
+          display: none;
+        }
+      }
+
+      @media (max-width: 920px) {
+        &.loggedIn {
+          display: none;
+        }
+      }
+
+      .socialIcon {
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+      }
+    }
+  }
+}

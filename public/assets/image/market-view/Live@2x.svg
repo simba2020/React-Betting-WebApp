@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="21" viewBox="0 0 55 21">
+  <g id="Ic_Live" transform="translate(22.344 2)">
+    <rect id="Base" width="55" height="21" rx="2" transform="translate(-22.344 -2)" fill="#e33e47"/>
+    <text id="In_Play" data-name="In Play" transform="translate(-15.344 13)" fill="#fff" font-size="12" font-family="MicrosoftSansSerif, Microsoft Sans Serif" letter-spacing="0.06em"><tspan x="0" y="0">In Play</tspan></text>
+  </g>
+</svg>

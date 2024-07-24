@@ -1,0 +1,74 @@
+.market-view {
+  position: relative;
+  padding: 8px;
+  margin: 8px;
+  background-color: #27282B;
+  border-radius: 4px;
+  .score {
+    color: #CED6E6;
+    font: normal normal normal 19px/19px Roboto;
+  }
+  .name-wrap {
+    line-height: 10px;
+  }
+  .team-name {
+    color: #B7BECC;
+    font: normal normal normal 13px/14px Roboto;
+  }
+  .cashout-img {
+    width: 22px;
+  }
+  .flag-img{
+    width: 20px;
+    height: 20px;
+  }
+  .market-length-wrap {
+    text-align: right;
+    .length {
+      font: normal normal normal 14px/19px Roboto;
+      color: #B7BDCC;
+    }
+    svg {
+      color: #B7BDCC;
+      width: 13px !important;
+      height: 13px !important;
+      margin-bottom: 2px;
+    }
+  }
+  .market-group {
+    position: absolute;
+    bottom: 8px;
+    width: calc(100% - 16px);
+  }
+}
+@media (max-width: 600px) {
+  .market-view {
+    margin-bottom: 0px;
+  }
+}
+.value-wrap {
+  height: 40px;
+  background-color: #323438;
+  border-radius: 4px;
+  padding: 8px 12px;
+  .left-text {
+    font: normal normal normal 14px/19px Roboto;
+    color: #A1A7B3;
+  }
+  .right-text {
+    font: normal normal normal 14px/19px Roboto;
+    color: #FFFFFF;
+  }
+}
+.w-25px {
+  width: 25px;
+  height: 25px;
+}
+div {
+  &.market-group {
+    width:100%;
+  }
+}
+.market {
+  cursor: pointer;
+}

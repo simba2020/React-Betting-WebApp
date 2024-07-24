@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Ic_burger" transform="translate(-8689 17120)">
+    <rect id="Rectangle_11887" data-name="Rectangle 11887" width="24" height="24" transform="translate(8689 -17120)" fill="none"/>
+    <g id="menu_4_" data-name="menu (4)" transform="translate(8690.594 -17118.088)">
+      <g id="Menu_1_" transform="translate(0 0.001)">
+        <path id="Path_48164" data-name="Path 48164" d="M19.961,98.661H.644c-.355,0-.644-.542-.644-1.209s.288-1.209.644-1.209H19.961c.355,0,.644.542.644,1.209S20.316,98.661,19.961,98.661Z" transform="translate(0 -95.243)" fill="#868a94"/>
+        <path id="Path_48165" data-name="Path 48165" d="M.644,180.455H19.961c.355,0,.644.542.644,1.209s-.288,1.209-.644,1.209H.644c-.355,0-.644-.542-.644-1.209S.288,180.455.644,180.455Z" transform="translate(0 -171.993)" fill="#868a94"/>
+        <path id="Path_48166" data-name="Path 48166" d="M121.24,264.667h18.731a1.248,1.248,0,0,1,0,2.418H121.24a1.248,1.248,0,0,1,0-2.418Z" transform="translate(-120.303 -248.743)" fill="#868a94"/>
+      </g>
+    </g>
+  </g>
+</svg>

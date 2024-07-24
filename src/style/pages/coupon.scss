@@ -1,0 +1,395 @@
+.coupon-page {
+  min-height: calc(100vh - 185px);
+}
+.coupon-label {
+  text-align: left;
+  font: normal normal 300 18px/22px Roboto;
+  letter-spacing: 1.08px;
+  color: #cacacc;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.coupon-card {
+  position: relative;
+  background: #252629 0 0 no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  width: 300px;
+  height: 148px;
+  margin-right: 20px;
+  overflow: hidden;
+  .background {
+    margin-top: -32%;
+    width: 70%;
+    opacity: 0.05;
+    margin-left: 55%;
+  }
+  .flag {
+    position: absolute;
+    width: 32px;
+  }
+  div {
+    position: absolute;
+    bottom: 16px;
+    .name {
+      text-align: left;
+      font: normal normal normal 14px/17px Roboto;
+      letter-spacing: 0.84px;
+      color: #cacacc;
+      opacity: 1;
+    }
+    .type {
+      text-align: left;
+      font: normal normal normal 16px/19px Roboto;
+      letter-spacing: 0.96px;
+      color: #ffffff;
+      opacity: 1;
+    }
+  }
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.coupon-tournament {
+  background: #2a2c30 0% 0% no-repeat padding-box;
+  border: 20px solid transparent;
+  border-image: url($assets-url + "/interface/border.svg") 4% 4% 4% 4% repeat;
+  margin-top: 185px;
+  min-height: calc(100vh - 185px);
+  .label {
+    span:first-child {
+      text-align: left;
+      font: normal normal 300 32px/38px Roboto;
+      letter-spacing: 1.92px;
+      color: #aeb5bf;
+      text-transform: capitalize;
+    }
+    span:nth-child(2) {
+      text-align: left;
+      font: normal normal normal 32px/38px Roboto;
+      letter-spacing: 1.92px;
+      color: #f9be00;
+      text-transform: capitalize;
+    }
+  }
+  .main-container {
+    flex: 100%;
+    .title {
+      border-radius: 4px;
+      opacity: 1;
+      text-align: left;
+      font: normal normal normal 16px/19px Roboto;
+      letter-spacing: 0.96px;
+      color: #cacacc;
+      text-transform: capitalize;
+    }
+    .header {
+      border-radius: 4px;
+      opacity: 1;
+      text-align: left;
+      font: normal normal normal 16px/19px Roboto;
+      letter-spacing: 0.96px;
+      color: #979da6;
+      text-transform: capitalize;
+    }
+    .match-box {
+      max-height: calc(100vh - 400px);
+      overflow: auto;
+      max-width: 100%;
+      .match-row {
+        background: #2E3136 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        height: 65px;
+        text-align: left;
+        font: normal normal normal 14px/17px Roboto;
+        letter-spacing: 0.84px;
+        color: #cccccc;
+        text-transform: capitalize;
+
+        .teams-column {
+          min-width: 240px;
+          padding-right: 20px !important;
+        }
+
+        .timer-column {
+          padding-right: 20px !important;
+          min-width: 100px;
+        }
+
+        .team {
+          img {
+            width: 18px;
+            height: 20px;
+          }
+          div {
+            white-space: nowrap;
+          }
+        }
+        .datetime {
+          p:first-child {
+            margin-bottom: 4px !important;
+          }
+          p:nth-child(2) {
+            margin-bottom: 0px !important;
+          }
+        }
+        .match-result-body {
+          background: none;
+          .match-result-body-cell {
+            background: #26282B 0% 0% no-repeat padding-box;
+            margin-right: 1rem !important;
+            .name {
+              font: normal normal normal 12px/19px Roboto;
+            }
+            .values {
+              font: normal normal normal 16px Roboto;
+              margin-top: 4px;
+            }
+          }
+        }
+        .inplay-body-all .values {
+          margin-left: 5px;
+        }
+      }
+      .match-row:hover {
+        cursor: pointer;
+        background-color: #35373D;
+      }
+    }
+  }
+  .mobile {
+    color: #FFFFFF;
+    .match {
+      background-color: #313338;
+      border-radius: 8px;
+      .match-header {
+        font-size: 12t;
+        .team {
+          img {
+            width: 20px;
+            height: 23px;
+          }
+          div {
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+      .kick-off {
+        font: normal normal normal 12px/14px Roboto;
+        letter-spacing: 0.72px;
+        color: #D5D5D6;
+        text-transform: capitalize;
+        opacity: 1;
+      }
+      .match-result-body-cell {
+        background-color: #27282C;
+        border-radius: 4px;
+        margin-top: 4px;
+        .name {
+          text-align: center;
+          font: normal normal normal 10px/13px Roboto;
+          letter-spacing: 0.6px;
+          color: #FFFFFF;
+          opacity: 0.8;
+          margin-bottom: 8px;
+          white-space: nowrap;
+        }
+        .values {
+          font: normal normal medium 16px/19px Roboto;
+          letter-spacing: 0.96px;
+          color: #FFFFFF;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+.place-bet {
+  background: #393c40 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 28px #16161947;
+  opacity: 1;
+  height: 56px;
+  text-align: right;
+  font: normal normal normal 16px/18px Roboto;
+  letter-spacing: 1.32px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+
+  span {
+    text-align: left;
+    font: normal normal normal 14px/17px Roboto;
+    letter-spacing: 0.84px;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  svg {
+    color: #f9be00 !important;
+  }
+  .coupon-stake {
+    height: 41px;
+    background: #4d5157 0% 0% no-repeat padding-box;
+    border: 1px solid #b4bccc;
+    border-radius: 4px;
+    display: flex;
+    width: 145px;
+
+    p {
+      font: normal normal normal 16px/19px Roboto;
+      letter-spacing: 0.96px;
+      color: #b1b1b3;
+      margin-bottom: 0;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .stake-input {
+      color: #ffffff !important;
+      background: #4d5157 0% 0% no-repeat padding-box !important;
+      margin: 5px 0 5px 15px;
+      height: auto !important;
+      text-align: right;
+      border: none !important;
+      letter-spacing: 1.08px !important;
+    }
+    .stake-input:focus {
+      box-shadow: none !important;
+    }
+  }
+  .odds-value {
+    font: normal normal medium 22px/27px Roboto;
+    letter-spacing: 1.32px;
+    color: #f9be00;
+    overflow-wrap: break-word;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+.bet-success-title {
+  font: normal normal normal 20px Roboto;
+  letter-spacing: 1.92px;
+  color: #f9be00;
+}
+.bet-success-description {
+  font: normal normal normal 16px Roboto;
+  color: #979da6;
+}
+.place-bet .btn.btn-warning {
+  height: 38px;
+  .spinner-border {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .coupon-tournament {
+    background: #232426 0% 0% no-repeat padding-box;
+    margin-top: 116px;
+    border-image: none;
+    border: none;
+    .label {
+      span:first-child {
+        text-align: left;
+        font: normal normal normal 18px/20px Roboto;
+        letter-spacing: 1.08px;
+      }
+      span:nth-child(2) {
+        text-align: left;
+        font: normal normal normal 18px/20px Roboto;
+        letter-spacing: 1.08px;
+      }
+    }
+    .main-container {
+      .title {
+        font: normal normal normal 14px/16px Roboto;
+        letter-spacing: 0.96px;
+      }
+      .header {
+        font: normal normal normal 12px/14px Roboto;
+      }
+      .match-box {
+        max-height: calc(100vh - 370px);
+        width: 100%;
+        .match-row {
+          height: auto;
+          font: normal normal normal 12px/14px Roboto;
+          .team {
+            img {
+              width: 18px;
+              height: 18px;
+            }
+          }
+        }
+      }
+      .match-box.message-big {
+        max-height: calc(100vh - 420px);
+      }
+    }
+    .place-bet {
+      background: #1E1F21 0% 0% no-repeat padding-box;
+      height: auto;
+      font: normal normal normal 14px/16px Roboto;
+      .coupon-stake {
+        height: 41px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.shadow-scroll {
+  position: absolute;
+  width: 80px;
+  height: 180px;
+  top: 0;
+  right: 0;
+  background: linear-gradient(90deg, rgba(29, 29, 33, 0) 0%, rgba(25, 25, 28, 1) 90%);
+}
+
+@media (max-width: 600px) {
+  .coupon-card {
+    width: 272px;
+    height: 160px;
+    margin-right: 16px;
+    margin-bottom: 10px;
+  }
+  .coupon-label {
+    font: normal normal 300 20px/38px Roboto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .coupon-page {
+    height: calc(100vh - 190px);
+    overflow: auto;
+  }
+}
+
+.default-parity {
+  border: 1px solid gold;
+}
+
+.match-row {
+  .market-priority {
+    @media (max-width: 2099px) {
+      &-p3, &-n3 {
+        display: none;
+      }
+    }
+
+    @media (max-width: 1635px) {
+      &-p2, &-n2 {
+        display: none;
+      }
+    }
+
+    @media (max-width: 1171px) {
+      &-p1, &-n1 {
+        display: none;
+      }
+    }
+  }
+}

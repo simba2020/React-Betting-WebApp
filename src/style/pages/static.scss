@@ -1,0 +1,109 @@
+.static-title {
+  background: #252629 0% 0% no-repeat padding-box;
+  padding-top: 12px;
+
+  p {
+    font: normal normal normal 20px Roboto;
+    color: #f9be00;
+    letter-spacing: 0.96px;
+    text-align: center;
+    font-size:2em;
+    margin-bottom: 0;
+  }
+}
+
+.static-content {
+  background: #252629 0% 0% no-repeat padding-box;
+
+  div {
+    color: #d7d7d9;
+    p {
+      font: normal normal normal 16px Roboto;
+      letter-spacing: 0.96px;
+      color: #d7d7d9;
+    }
+
+    h1 {
+      color: #f9be00;
+      text-align: center;
+    }
+
+    h2 {
+      color: #f9be00;
+      text-align: center;
+      font: normal normal normal 2em Roboto;
+    }
+
+    h3 {
+      color: #f9be00;
+      text-align: left;
+      font-style:italic;
+      font: normal normal normal 1.6em Roboto
+    }
+
+    ul li {
+      /* Bullet color */
+      color: #f9be00;
+      list-style-type: disc;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+.static-body {
+  .body {
+    background: #212326 0% 0% no-repeat padding-box;
+    width: 80%;
+  }
+
+  .header {
+    text-align: left;
+    font: normal normal normal 24px/29px Roboto;
+    letter-spacing: 1.44px;
+    color: #F9BE00;
+  }
+
+  .sub-header {
+    text-align: left;
+    font: normal normal normal 18px/27px Roboto;
+    letter-spacing: 1.08px;
+    color: #F9BE00;
+    margin-top: 32px;
+  }
+
+  .sub-header-2 {
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 1px;
+    color: #F9BE00;
+    margin-top: 32px;
+  }
+
+  .content {
+    text-align: left;
+    font: normal normal 100 16px/20px Roboto;
+    letter-spacing: 0.96px;
+    color: #CACACC;
+  }
+
+  .email-link {
+    color: #F9BE00;
+    text-decoration: underline;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #4a4f57;
+    border-radius: 10px;
+  }
+}

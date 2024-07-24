@@ -1,0 +1,100 @@
+{
+  "name": "betting",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@kunukn/react-collapse": "^2.2.9",
+    "@material-ui/core": "^4.11.4",
+    "@reduxjs/toolkit": "^1.5.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "broadcast-channel": "^3.6.0",
+    "clsx": "^1.1.1",
+    "event-source-polyfill": "^1.0.22",
+    "html-react-parser": "^1.2.4",
+    "http-status-codes": "^2.1.4",
+    "jquery": "^3.5.1",
+    "jwt-decode": "^3.1.2",
+    "node-sass": "^4.14.1",
+    "pubnub": "^4.29.11",
+    "pubnub-react": "^2.1.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-compound-timer": "^1.2.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-debounce-input": "^3.2.3",
+    "react-dom": "^17.0.1",
+    "react-draggable": "^4.4.3",
+    "react-dropzone": "^11.3.0",
+    "react-ga": "^3.3.0",
+    "react-helmet": "^6.1.0",
+    "react-indiana-drag-scroll": "^1.8.1",
+    "react-minimal-pie-chart": "^8.1.0",
+    "react-multi-carousel": "^2.6.1",
+    "react-phone-input-2": "^2.13.9",
+    "react-pure-loaders": "^3.0.1",
+    "react-redux": "^7.2.2",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-select": "^3.2.0",
+    "react-select-country-list": "^2.2.3",
+    "react-stripe-checkout": "^2.6.3",
+    "react-switch": "^6.0.0",
+    "react-toastify": "^6.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "semantic-ui-react": "^2.0.3",
+    "web-vitals": "^0.2.4",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "preinstall": "git config --local include.path $PWD/.gitconfig",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "padding-line-between-statements": [
+        "error",
+        {
+          "blankLine": "always",
+          "prev": "*",
+          "next": "return"
+        }
+      ],
+      "no-trailing-spaces": "error",
+      "no-else-return": "error",
+      "no-unneeded-ternary": "error",
+      "prefer-const": "error"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
